@@ -1,0 +1,14 @@
+@import 'colors.css';
+
+@import 'scrollbar-custom.css';
+
+/* ------------------------------------------------------------------------- */
+/* If install breeze-gtk, use 'titlebutton-with-breeze-gtk-package.css';     */
+/* otherwise use 'titlebutton-no-breeze-gtk-package.css';                    */
+/* ------------------------------------------------------------------------- */
+@import 'titlebutton-no-breeze-gtk-package.css';
+
+/* Scale gtk icons for HiDPI display */
+image {
+    -gtk-icon-transform: scale(1.8);
+}

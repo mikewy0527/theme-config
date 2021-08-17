@@ -1,0 +1,23 @@
+scrollbar slider {
+    /* Size of the slider */
+    min-width: 12px;
+    min-height: 12px;
+    border-radius: 20;
+
+    /* Padding around the slider */
+    border: 2px solid transparent;
+}
+
+scrollbar trough {
+    background-color: shade(@theme_bg_color, 0.60);
+}
+
+scrollbar button,
+scrollbar button.vertical,
+scrollbar button.horizontal,
+scrollbar .button,
+scrollbar .button.vertical,
+scrollbar .button.horizontal {
+    color: shade(@theme_bg_color, 0.10);
+    background-color: shade(@theme_bg_color, 0.4);
+}

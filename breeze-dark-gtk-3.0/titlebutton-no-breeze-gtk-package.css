@@ -1,0 +1,123 @@
+/* ------------------------------------------------------------------------- */
+/* Portable from /usr/share/themes/Breeze/window_decorations.css             */
+/* ------------------------------------------------------------------------- */
+
+button.titlebutton.close, .titlebar button.titlebutton.close {
+    margin: 0px;
+    padding: 0px;
+    min-height: 36px;
+    min-width: 36px;
+    color: transparent;
+    background-size: 36px;
+    background-image: url("assets/close-normal.svg");
+}
+
+button.titlebutton.close:hover, .titlebar button.titlebutton.close:hover {
+    background-image: url("assets/close-hover.svg");
+}
+
+button.titlebutton.close:active, .titlebar button.titlebutton.close:active {
+    background-image: url("assets/close-active.svg");
+}
+
+button.titlebutton.close:backdrop, .titlebar button.titlebutton.close:backdrop {
+    background-image: url("assets/close-backdrop-normal.svg");
+}
+
+button.titlebutton.close:backdrop:hover, .titlebar button.titlebutton.close:backdrop:hover {
+    background-image: url("assets/close-backdrop-hover.svg");
+}
+
+button.titlebutton.close:backdrop:active, .titlebar button.titlebutton.close:backdrop:active {
+    background-image: url("assets/close-backdrop-active.svg");
+}
+
+button.titlebutton.maximize, .titlebar button.titlebutton.maximize {
+    margin: 0px;
+    padding: 0px;
+    min-height: 36px;
+    min-width: 36px;
+    color: transparent;
+    background-size: 36px;
+    background-image: url("assets/maximize-normal.svg");
+}
+
+button.titlebutton.maximize:hover, .titlebar button.titlebutton.maximize:hover {
+    background-image: url("assets/maximize-hover.svg");
+}
+
+button.titlebutton.maximize:active, .titlebar button.titlebutton.maximize:active {
+    background-image: url("assets/maximize-active.svg");
+}
+
+button.titlebutton.maximize:backdrop, .titlebar button.titlebutton.maximize:backdrop {
+    background-image: url("assets/maximize-backdrop-normal.svg");
+}
+
+button.titlebutton.maximize:backdrop:hover, .titlebar button.titlebutton.maximize:backdrop:hover {
+    background-image: url("assets/maximize-backdrop-hover.svg");
+}
+
+button.titlebutton.maximize:backdrop:active, .titlebar button.titlebutton.maximize:backdrop:active {
+    background-image: url("assets/maximize-backdrop-active.svg");
+}
+
+button.titlebutton.minimize, .titlebar button.titlebutton.minimize {
+    margin: 0px;
+    padding: 0px;
+    min-height: 36px;
+    min-width: 36px;
+    color: transparent;
+    background-size: 36px;
+    background-image: url("assets/minimize-normal.svg");
+}
+
+button.titlebutton.minimize:hover, .titlebar button.titlebutton.minimize:hover {
+    background-image: url("assets/minimize-hover.svg");
+}
+
+button.titlebutton.minimize:active, .titlebar button.titlebutton.minimize:active {
+    background-image: url("assets/minimize-active.svg");
+}
+
+button.titlebutton.minimize:backdrop, .titlebar button.titlebutton.minimize:backdrop {
+    background-image: url("assets/minimize-backdrop-normal.svg");
+}
+
+button.titlebutton.minimize:backdrop:hover, .titlebar button.titlebutton.minimize:backdrop:hover {
+    background-image: url("assets/minimize-backdrop-hover.svg");
+}
+
+button.titlebutton.minimize:backdrop:active, .titlebar button.titlebutton.minimize:backdrop:active {
+    background-image: url("assets/minimize-backdrop-active.svg");
+}
+
+.maximized button.titlebutton.maximize, .maximized .titlebar button.titlebutton.maximize {
+    margin: 0px;
+    padding: 0px;
+    min-height: 36px;
+    min-width: 36px;
+    color: transparent;
+    background-size: 36px;
+    background-image: url("assets/maximized-normal.svg");
+}
+
+.maximized button.titlebutton.maximize:hover, .maximized .titlebar button.titlebutton.maximize:hover {
+    background-image: url("assets/maximized-hover.svg");
+}
+
+.maximized button.titlebutton.maximize:active, .maximized .titlebar button.titlebutton.maximize:active {
+    background-image: url("assets/maximized-active.svg");
+}
+
+.maximized button.titlebutton.maximize:backdrop, .maximized .titlebar button.titlebutton.maximize:backdrop {
+    background-image: url("assets/maximized-backdrop-normal.svg");
+}
+
+.maximized button.titlebutton.maximize:backdrop:hover, .maximized .titlebar button.titlebutton.maximize:backdrop:hover {
+    background-image: url("assets/maximized-backdrop-hover.svg");
+}
+
+.maximized button.titlebutton.maximize:backdrop:active, .maximized .titlebar button.titlebutton.maximize:backdrop:active {
+    background-image: url("assets/maximized-backdrop-active.svg");
+}

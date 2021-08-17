@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------------------- */
+/* Depends on package 'breeze-gtk', just need to setting the size and color. */
+/* ------------------------------------------------------------------------- */
+
+button.titlebutton.minimize, .titlebar button.titlebutton.minimize,
+button.titlebutton.maximize, .titlebar button.titlebutton.maximize,
+.maximized button.titlebutton.maximize, .maximized .titlebar button.titlebutton.maximize,
+button.titlebutton.close, .titlebar button.titlebutton.close {
+    margin: 0px;
+    padding: 0px;
+    min-height: 36px;
+    min-width: 36px;
+    color: transparent;
+    background-size: 36px;
+}
