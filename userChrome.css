@@ -1,0 +1,34 @@
+/* 
+ * Custom firefox TabsToolbar style
+ * Need to set the following option to 'true' in about:config
+ * toolkit.legacyUserProfileCustomizations.stylesheets
+ */
+
+:root {
+  --tab-max-height: 33px !important;
+  --tab-min-height: 0 !important;
+  --urlbar-toolbar-height: var(--tab-max-height) !important;
+}
+
+#nav-bar {
+   height: var(--tab-max-height)  !important;
+}
+
+#TabsToolbar, .tab-stack, .tab-content {
+    margin: 0 !important;
+    height: var(--tab-max-height)  !important;
+}
+.tab-background {
+    border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
+    margin-bottom: 0px !important;
+}
+.tabbrowser-tab:not([pinned]) {
+    min-width: 1px !important;
+}
+.tabbrowser-tab {
+    min-width: initial !important;
+    --user-tab-rounding: 6px;
+}
+.tab-content {
+    overflow: hidden !important;
+}
