@@ -9,6 +9,14 @@
   --tab-min-height: 0 !important;
   --urlbar-toolbar-height: var(--tab-max-height) !important;
 }
+.titlebar-color {
+    color: rgb(250, 250, 250) !important;
+    background-color: rgba(58, 44, 44, .95) !important;
+}
+.titlebar-color:not(-moz-window-inactive) {
+    color: rgb(250, 250, 250) !important;
+    background-color: rgba(61, 41, 41, .95) !important;
+}
 
 #nav-bar {
    height: var(--tab-max-height)  !important;
