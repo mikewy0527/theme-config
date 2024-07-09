@@ -39,7 +39,7 @@ QTabBar::tab:selected {
     /* background-color: rgba(245,240,223,0.95); */
 
     /* for wallpaper Scarlet-Tree */
-    background-color: rgba(253,243,227,0.95);
+    background-color: rgba(253,241,219,0.95);
 }
 
 QTabBar::tab:!selected {
