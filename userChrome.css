@@ -1,21 +1,13 @@
-/* 
+/*
  * Custom firefox TabsToolbar style
  * Need to set the following option to 'true' in about:config
  * toolkit.legacyUserProfileCustomizations.stylesheets
  */
 
 :root {
-  --tab-max-height: 33px !important;
-  --tab-min-height: 0 !important;
-  --urlbar-toolbar-height: var(--tab-max-height) !important;
-}
-.titlebar-color {
-    color: rgb(250, 250, 250) !important;
-    background-color: rgba(58, 44, 44, .95) !important;
-}
-.titlebar-color:not(-moz-window-inactive) {
-    color: rgb(250, 250, 250) !important;
-    background-color: rgba(61, 41, 41, .95) !important;
+    --tab-max-height: 28px !important;
+    --tab-min-height: 0 !important;
+    --urlbar-toolbar-height: var(--tab-max-height) !important;
 }
 
 #nav-bar {
@@ -39,4 +31,15 @@
 }
 .tab-content {
     overflow: hidden !important;
+}
+
+/* Library Button > Bookmarks: Hide "Recently Bookmarked" */
+#PanelUI-bookmarks #panelMenu_recentBookmarks,
+#PanelUI-bookmarks #panelMenu_bookmarksMenu {
+    display: none !important;
+}
+
+/* Library button: Hide Bookmarks in "Recent Highlights" */
+#appMenu-library-recentHighlights [type="highlight-bookmark"] {
+    display: none !important;
 }
