@@ -4,33 +4,46 @@
  * toolkit.legacyUserProfileCustomizations.stylesheets
  */
 
-:root {
+#main-window {
     --tab-max-height: 28px !important;
-    --tab-min-height: 0 !important;
     --urlbar-toolbar-height: var(--tab-max-height) !important;
 }
 
-#nav-bar {
-   height: var(--tab-max-height)  !important;
+#main-window:has(#tabbrowser-tabs:not([orient="vertical"])) {
+    --tab-min-height: 0px !important;
+
+    #nav-bar {
+        height: var(--tab-max-height) !important;
+    }
+
+    #TabsToolbar,
+    .tab-stack,
+    .tabbrowser-tab {
+        margin: 0 !important;
+        height: var(--tab-max-height)  !important;
+    }
+
+    .tab-background {
+        border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
+        margin-bottom: 0px !important;
+    }
+
+    .tabbrowser-tab:not([pinned]) {
+        min-width: 1px !important;
+    }
+
+    .tabbrowser-tab {
+        min-width: initial !important;
+        --user-tab-rounding: 6px;
+    }
+
+    .tab-content {
+        overflow: hidden !important;
+    }
 }
 
-#TabsToolbar, .tab-stack, .tab-content {
-    margin: 0 !important;
-    height: var(--tab-max-height)  !important;
-}
-.tab-background {
-    border-radius: var(--user-tab-rounding) var(--user-tab-rounding) 0px 0px !important; /* Connected */
-    margin-bottom: 0px !important;
-}
-.tabbrowser-tab:not([pinned]) {
-    min-width: 1px !important;
-}
-.tabbrowser-tab {
-    min-width: initial !important;
-    --user-tab-rounding: 6px;
-}
-.tab-content {
-    overflow: hidden !important;
+#main-window:has(#tabbrowser-tabs[orient="vertical"]) {
+    --tab-min-height: var(--tab-max-height) !important;
 }
 
 /* Library Button > Bookmarks: Hide "Recently Bookmarked" */
